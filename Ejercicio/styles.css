@@ -1,0 +1,53 @@
+body{
+    background-color: #fff;
+    font-family: sans-serif;
+    color: white;
+}
+
+.card{
+    background-color: #688db9;
+    text-align: center;
+    width: 300px;
+    margin: 40px;
+    margin-top: 50px;
+    padding: 20px 10px;
+    box-shadow: 0 0 35px #0006;
+    border-radius: 12px;
+    display: inline-block;
+}
+
+.green_card{
+    background: #5b7;
+}
+
+.red_card{
+    background: #f86;
+}
+
+.card_title{
+    margin: 0;
+    text-align: center;
+    font-size: 14px;
+    padding-top: 10px;
+}
+
+.card_description{
+    text-align: center;
+    font-size: 13px;
+    letter-spacing: 2px;
+    margin: 0;
+    margin-top: 5px;
+}
+
+.card_content{
+    font-size: 11px;
+    padding: 10px;
+    padding-bottom: 0;
+    text-align: justify;
+    margin-bottom: 0;
+}
+
+.card_img{
+    width: 170px;
+    height: 170px;
+}

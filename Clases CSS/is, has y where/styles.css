@@ -1,0 +1,25 @@
+section .el1,
+section .el2, 
+section .el3{
+    color: blue;
+}
+
+/*Modificando los elementos 1, 2, y 3
+que están dentro de un section*/
+section :is(.el1, .el2, .el3){
+    color: red;
+}
+
+/*Modificando un section que contiene 
+un el1*/
+
+section:has(.el1){
+    background-color: brown;
+    color: #fff;
+}
+
+/* En caso de que a UL le siga un div 
+modificamos el ul*/
+ul:has(+div){
+    background-color: black;
+}

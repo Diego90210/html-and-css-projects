@@ -1,0 +1,122 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    background-color: #030303;
+    color: #fff;
+}
+
+body, div, header, nav, ul, h1, p {
+    box-sizing: border-box;
+}
+
+.header{
+    min-height: 100vh;
+    box-sizing: border-box;
+    background-image: url("McLaren_F1_Google_UapTrAY.width-1200.format-webp.webp");
+    background-size: cover;
+    display: flex;
+}
+
+.header__item-container{
+    position: relative;
+    z-index: 10;
+    margin: auto;
+    text-align: center;
+}
+
+.header__img{
+    min-width: 100px;
+    max-width: 30%;
+    border-radius: 50%;
+    border: 6px solid #fff;
+    margin: 20px;
+}
+
+.header__overlay{
+    min-height: 100vh;
+    width: 100%;
+    background-color: #0009;
+    position: absolute;
+    z-index: 1;
+}
+
+h1{
+    margin: 0;
+    font-size: 3.6rem;
+}
+
+.nav{
+    background-color: #f5f5f5;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 6px 20px;
+    position: sticky;
+    top: 0;
+    margin-bottom: 10px;
+    box-shadow: 0 0 25px #0006;
+}
+
+.nav_ul{
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0;
+}
+
+.nav_item{
+    list-style: none;
+}
+
+.nav__logo-container,
+.nav__ul-container {
+    flex-grow: 1;
+    text-align: center;
+} 
+
+.nav__ul-container{
+    flex-grow: 4;
+}
+
+.nav_link{
+    color: #98713d;
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 10px;
+    border-radius: 0;
+    transition: background-color 0.24s, border-radius 0.2s, outline 0.2s, outline-offset 0.2s;
+    margin: 2px;
+    outline: 0;
+    outline-offset: 0;
+}
+
+.nav_link:hover{
+    background-color: #f803;
+    border-radius: 20px;
+    outline: 2px solid #030303;
+    outline-offset: -5px;
+}
+
+.link--login{
+    background-color:red;
+    color: #fff;
+    border-radius: 20px;
+    padding: 8px 24px;
+    margin-left: 6px;
+}
+
+.link--login:hover{
+    background-color: rgba(193, 33, 8, 0.828);
+}
+
+.nav__logo{
+    width: 60px;
+}
+
+main {
+    max-width: 800px;
+    margin: auto;
+    font-size: 30px;
+}

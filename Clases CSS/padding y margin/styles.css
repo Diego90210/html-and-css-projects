@@ -1,0 +1,15 @@
+.box1{
+    background: red;
+    height: 150px;
+    width: 150px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.box2{
+    background: red;
+    height: 150px;
+    width: 150px;
+    margin-top: 50px;
+    padding: 30px;
+}

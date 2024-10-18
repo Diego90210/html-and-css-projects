@@ -1,0 +1,17 @@
+.box{
+    width: 100px;
+    height: 100px;
+    background: blueviolet;
+    margin: 10px;
+}
+
+.box-default{
+    box-sizing: border-box;
+    border: 5px solid brown;
+}
+
+.box-new{
+    box-sizing: border-box;
+    border: 5px solid yellowgreen;
+    background: black;
+}

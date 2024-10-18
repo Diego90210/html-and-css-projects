@@ -1,0 +1,23 @@
+p{
+    color: red;
+    font-family: Montserrat;
+    font-size: 19px;
+    font-weight: 900;
+    font-style: italic;
+    text-align: left;
+    line-height: 2;
+    letter-spacing: 1px;
+}
+
+span{
+    text-decoration: line-through;
+    color: black;
+}
+
+h1{
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}

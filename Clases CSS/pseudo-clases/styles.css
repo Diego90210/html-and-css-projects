@@ -1,0 +1,74 @@
+h1{
+    color: #48e;
+    font-family: sans-serif;
+    margin: 30px;
+}
+
+/*Cuando pasamos el mouse por encima de h1*/
+h1:hover{
+    background-color: #ccc;
+    color: #000;
+}
+
+/*Cuando se clikeamos el texto*/
+h1:active{
+    background-color: #ef0 ;
+    color: #fff;
+}
+
+/*Selecciona el primer LI*/
+li:first-child{
+    color: #f00;
+}
+
+/*Selecciona el n-avo LI*/
+li:nth-child(2){
+    color: #0f0;
+}
+
+/*Selecciona el último LI*/
+li:last-child{
+    color: blueviolet;
+}
+
+/*Selecciona un LI si y un LI no */
+li:nth-child(2n){
+    color: #0f0;
+    background-color: #000;
+}
+
+/*Seleccionando todos los LI que no tengan la clase excluir*/
+.lista li:not(.excluir){
+    color: red;
+}
+
+div{
+    border: 3px solid #000;
+}
+/*Seleccionando el elemento cuando está vacío*/
+div:empty{
+    border: none;
+}
+
+/*cambia el color de un enlace cuando ha sido visitado*/
+a:visited{
+    color: red;
+}
+
+/*da el color cuando un enlace aún no ha sido visitado*/
+a:link{
+    color: chartreuse;
+}
+
+/*cuando un checkbox ha sido marcado*/
+input[type="checkbox"]:checked{
+    margin: 0;
+}
+
+input:invalid{
+    color: red;
+}
+
+input:valid{
+    color:green;
+}

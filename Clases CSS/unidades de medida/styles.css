@@ -1,0 +1,18 @@
+div{
+    box-sizing: border-box;
+    background: #ededed;
+    padding: 20px;
+    font-family: sans-serif;
+    border-left: 5px solid #55c72b;
+    font-size: 14px;
+}
+
+h1{
+    font-size: 24px;
+    margin: 0;
+}
+
+p{
+    color: #555;
+    font-size: 1em;
+}

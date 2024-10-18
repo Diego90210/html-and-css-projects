@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+div, body{
+    box-sizing: border-box;
+}
+
+.flexbox{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: 2px solid #000;
+    margin: 20px;
+}
+
+.flex-item{
+    width: 100px;
+    background-color: #911;
+    margin: 10px;
+    color: #fff;
+    font: 40px;
+    text-align: center;
+    direction: rtl;
+}
+
+.flex-item:first-child{
+    background-color: #000;
+}
+
+.flex-item:nth-child(2){
+    background-color: #f93;
+}
+

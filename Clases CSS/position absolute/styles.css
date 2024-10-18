@@ -1,0 +1,29 @@
+body{
+    background-color: beige;
+}
+
+.contenedor{
+    border: 2px solid #000;
+    margin: 30px 40px;
+    background-color: #fff;
+    position: relative;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    color: #fff;
+    z-index: 10;
+}
+
+.box--blue{
+    position: absolute;
+    background-color: blue;
+    z-index: 10;
+}
+
+.box--red{
+    background-color: red;
+    z-index: 20;
+}

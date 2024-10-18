@@ -1,0 +1,33 @@
+.Faltante{
+    color: blue;
+}
+
+/*Selector de atributo*/
+
+img[src$="jpg"]{
+    width: 100%;
+}
+
+img[src^="LaHaine"]{
+    width: 100%;
+}
+
+/*Selector por hijo directo */
+
+li > strong{
+    font-size: 25px;
+    font-family: monospace;
+}
+
+/* Selector adyacente */
+
+h2 + p{
+    color: blue;
+}
+
+/* Selector de hermanos generales */
+
+h2 ~ p {
+    font-size: 24px;
+}
+

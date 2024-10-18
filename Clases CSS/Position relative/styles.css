@@ -1,0 +1,19 @@
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    color: #fff;
+    position: relative;
+}
+
+.box--blue{
+    background-color: blue;
+    z-index: 10;
+    top: 29px;
+    left: 10px;
+}
+
+.box:first-child{
+    top: 150px;
+    left: 40px;
+}

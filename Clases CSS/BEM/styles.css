@@ -1,0 +1,21 @@
+.Lista{
+    border: 2px solid #000;
+}
+
+.Lista__item{
+    color: grey;
+    margin: 10px 0px;
+    list-style: square;
+}
+
+.item--importante{
+    color: blue;
+}
+
+.item--danino{
+    color: red;
+}
+
+.Lista--vieja{
+    background-color: aqua;
+}

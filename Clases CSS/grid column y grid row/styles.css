@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #999;
+}
+body, div{
+    box-sizing: border-box;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    grid-auto-flow: dense;
+    margin: auto;
+    gap: 10px;
+    padding: 10px;
+    min-height: 100vh;
+}
+
+.grid-item{
+    font-size: 30px;
+    background-color: #48e;
+    border-radius: 16px;
+    background-size: cover;
+    background-position: center;
+    background-image: url("https://i.pinimg.com/564x/3e/41/96/3e4196ed5903ceb483f58447c0bd07e3.jpg");
+    color: #fff;
+}
+
+.grid-item:nth-child(10){
+    grid-column: span 3;
+    grid-row: span 2;
+}
+
+
+
+
+
